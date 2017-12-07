@@ -1,0 +1,66 @@
+<html>
+<body>
+   <form action="regi1.php" method="POST">
+  <title>registration page</title>
+   <center><h1>registration form</h1>
+   <p>
+   <label>reg id</label>
+   <input type="text"
+          name="re_id"
+		  length="10"
+		  placeholder="14331A0501"/>
+	</p>
+   <p>  
+  <label>first name</label>
+   <input type="text"
+          name="fname"
+		  length="32"
+		  placeholder="name"/>
+    </p>
+    <p>	
+	 <label>last name</label>
+   <input type="text"
+          name="lname"
+		  length="20"
+		  placeholder="surname"/>	  
+    </p>
+      <p>	
+	 <label>student type</label>
+   <input type="text"
+          name="st"
+		  length="20"
+		  placeholder="dayscholar/hostler"/>	  
+    </p>
+	<label>admitted_in</label>
+	<select  type="select" name="admit_in">
+     <option value="1">2013-14</option> 
+     <option value="2">2014-15</option> 
+     <option value="3">2015-16</option> 
+     <option value="4">2016-17</option> 
+     <option value="5">2017-18</option> 
+     <option value="6">2018-19</option> 
+     <option value="7">2019-20</option> 
+	 </select>
+    <p>	
+	 <label>regulation</label>
+   <select  type="select" name="reg">
+     <option value="1">r10</option> 
+     <option value="2">r13</option> 
+     </select>
+    </p>
+<label><big>security question</big></label></br>
+   <select type="select" name="security_question" />
+   <option value="1">Your 1st pet's nick name</option> 
+   <option value="2">mother's maiden name</option>
+   <option value="3">childhood school name</option> 
+   <option value="4">Your 1st crush's name</option>
+</select></br> 
+</br>
+<label>Enter your answer</label>
+   <input type="password" name="answer" size="10" /></br>
+</br>
+   
+   <input type="submit" name="submit"></input>
+  </form>
+</body>
+</html>

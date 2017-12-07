@@ -1,0 +1,20 @@
+body{
+ background:#B0C4DE;//#708090;
+}
+#frm{
+ border: solid gray 1px;
+ width: 50%;
+ height: 50%;
+ border-radius: 5px;
+ margin: 100px auto;
+ background: url("logo2.jpg");
+ background-size: 800px 450px;
+ background-repeat: no-repeat;
+ padding: 50px;
+}
+#btn{
+  color: #fff;
+  background: #337ab7;
+  padding: 5px;
+  margin-left: 69%;
+}
